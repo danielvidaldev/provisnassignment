@@ -8,6 +8,7 @@ export const Card = (props) => (
     {/* Added a +10 at the end as there were some children amongst the first pictures */}
     <h2> {props.customer.username} </h2>
     <p> {props.customer.email} </p>
-    <p> Favorite coin: {props.customer.website}</p>
+    {/* As I'm not able to create my own API I'm using their email adresses as fake coins */}
+    <p> Favorite coin: {props.customer.website}</p> 
   </div>
 )
