@@ -22,8 +22,6 @@ class App extends Component {
     fetch('https://jsonplaceholder.typicode.com/users')
     .then(response => response.json())
     .then(users => this.setState({ customers: users }));
-    console.log(this.state.displayCustomers);
-    console.log(this.state.displayCoins);
   }
 
   //logic to change display in container App
